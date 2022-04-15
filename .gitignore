@@ -25,4 +25,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# ignore a single file
 head.html

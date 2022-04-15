@@ -20,11 +20,11 @@ document.writeln("            <!-- Collect the nav links, forms, and other conte
 document.writeln("            <div class=\'collapse navbar-collapse\' id=\'bs-example-navbar-collapse-1\'>");
 document.writeln("                <ul class=\'nav navbar-nav main-nav  clear navbar-right \'>");
 document.writeln("                    <li><a class=\'color_animation\' href=\'#top\'>喜迎二十大</a></li>");
-document.writeln("                    <li><a class=\'color_animation\' href=\'#story\'>要闻动态</a></li>");
-document.writeln("                    <li><a class=\'color_animation\' href=\'#pricing\'>最新报道</a></li>");
-document.writeln("                    <li><a class=\'color_animation\' href=\'#beer\'>青年典型</a></li>");
-document.writeln("                    <li><a class=\'color_animation\' href=\'#bread\'>光辉历程</a></li>");
-document.writeln("                    <li><a class=\'color_animation\' href=\'#featured\'>党建新疆</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'history.html\'>以史为鉴</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'future.html\'>开创未来</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'work.html\'>埋头苦干</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'running.html\'>毅勇前行</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'doing.html\'>我们在行动</a></li>");
 document.writeln("                </ul>");
 document.writeln("            </div><!-- /.navbar-collapse -->");
 document.writeln("        </div>");
