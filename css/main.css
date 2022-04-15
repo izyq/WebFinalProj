@@ -115,20 +115,22 @@ h2 {
 }
 
 /*========================
- FOOTER CONTENT
+ FOOTER CSS样式
 =========================*/
 
+/*设置footer背景*/
 footer.sub_footer {
     background-color: #ca211f;
     padding: 20px;
 }
-
+/*设置footer文字颜色*/
 p.sub-footer-text{
     color: #ffffff;
     margin: 0;
 }
-
+/*设置footer a标签颜色*/
 p.sub-footer-text a{
     color: #ffffff;
     text-decoration: none;
 }
+
