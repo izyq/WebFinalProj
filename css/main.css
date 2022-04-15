@@ -1,0 +1,134 @@
+.navbar-default {
+    border: 0 !important;
+}
+
+/*调整navbar大小*/
+.navbar-default {
+    height: 70px;
+    padding-top: 10px;
+}
+
+/*调整navbar字体大小 背景颜色*/
+nav {
+    background: #ca211f !important;
+    font-size: 18px;
+}
+
+
+
+/*添加navbar文字动画*/
+.color_animation {
+    text-decoration: initial;
+    word-spacing: 5px;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+/*添加navbar文字hover效果*/
+.color_animation:hover {
+    color: #fbe38e !important;
+    /*background-color: #db5252 !important;*/
+    border-bottom: 1px solid #fbe83e;
+    text-shadow: 3px 4px 3px #8f350d;
+}
+
+/*调整logo大小*/
+.navbar-brand {
+    width: 100px;
+    padding: 0px 23px !important;
+}
+
+/*调整logo大小*/
+.navbar-brand > img {
+    width: 100%;
+}
+
+/*调整下拉菜单颜色*/
+.nav > li > a {
+    background-color: #ca211f !important;
+}
+
+/*调整下拉菜单颜色*/
+.nav-item.dropdown .dropdown-item:active {
+    background-color: #ca211f !important;
+}
+
+/*调整下拉菜单悬停效果*/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #db5252 !important;
+}
+
+/*调整下拉菜单三根横杠颜色*/
+.icon-bar {
+    background-color: #ffffff !important;
+}
+
+/*调整下拉菜单多余border*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/*========================
+       Banner容器
+=========================*/
+.starter_container {
+    margin-top: -21px;
+    padding: 0;
+    min-width: 50%;
+    height: 100%;
+    background: url('../images/background.jpeg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.follow_container {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+/*引入字体文件*/
+@font-face {
+    font-family: "HYShangWeiShouShuW";
+    src: url("../font/HYShangWeiShouShuW.ttf");
+
+}
+/*设置h2样式*/
+h2 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -5px;
+}
+/*设置顶部标题样式*/
+.top-title{
+    color: #f8ec80;
+    font-family: 'HYShangWeiShouShuW';
+    font-size: 100px;
+    font-weight: 400;
+}
+
+/*========================
+ FOOTER CONTENT
+=========================*/
+
+footer.sub_footer {
+    background-color: #ca211f;
+    padding: 20px;
+}
+
+p.sub-footer-text{
+    color: #ffffff;
+    margin: 0;
+}
+
+p.sub-footer-text a{
+    color: #ffffff;
+    text-decoration: none;
+}

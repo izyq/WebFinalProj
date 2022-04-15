@@ -1,0 +1,32 @@
+//使用工具 http://tool.chinaz.com/Tools/Html_Js.aspx
+//将公共部分转化为js 便于合作开发
+document.writeln("<!-- 导航栏 -->");
+document.writeln("<nav class=\'navbar navbar-default navbar-fixed-top\' role=\'navigation\'>");
+document.writeln("    <div class=\'container\'>");
+document.writeln("        <div class=\'row\'>");
+document.writeln("            <!-- Brand and toggle get grouped for better mobile display -->");
+document.writeln("            <div class=\'navbar-header\'>");
+document.writeln("                <button type=\'button\' class=\'navbar-toggle collapsed\' data-toggle=\'collapse\'");
+document.writeln("                        data-target=\'#bs-example-navbar-collapse-1\'>");
+document.writeln("                    <span class=\'sr-only\'>Toggle navigation</span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                    <span class=\'icon-bar\'></span>");
+document.writeln("                </button>");
+document.writeln("                <a class=\'navbar-brand\' href=\'#\'><img src=\'images/logo.png\'></a>");
+document.writeln("            </div>");
+document.writeln("");
+document.writeln("            <!-- Collect the nav links, forms, and other content for toggling -->");
+document.writeln("            <div class=\'collapse navbar-collapse\' id=\'bs-example-navbar-collapse-1\'>");
+document.writeln("                <ul class=\'nav navbar-nav main-nav  clear navbar-right \'>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#top\'>喜迎二十大</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#story\'>要闻动态</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#pricing\'>最新报道</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#beer\'>青年典型</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#bread\'>光辉历程</a></li>");
+document.writeln("                    <li><a class=\'color_animation\' href=\'#featured\'>党建新疆</a></li>");
+document.writeln("                </ul>");
+document.writeln("            </div><!-- /.navbar-collapse -->");
+document.writeln("        </div>");
+document.writeln("    </div><!-- /.container-fluid -->");
+document.writeln("</nav>");
