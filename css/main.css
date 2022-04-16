@@ -134,6 +134,67 @@ p.sub-footer-text a{
     color: #ffffff;
     text-decoration: none;
 }
+/*========================
+        重要新闻
+=========================*/
+/*位置*/
+.description_content {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    z-index: 99;
+    position: relative;
+    background: #fffae8;
+    text-align: center;
+}
+
+.text-content.container {
+    margin-top: 65px;
+    margin-bottom: -51px;
+    padding-bottom: 100px;
+}
+
+.text-content.img{
+    max-width:500px
+}
+
+p.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+/*背景*/
+.bread.background_content{
+    background: url('../images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background_content {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    z-index: 98;
+    text-align: center;
+}
+
+.background_content h1 {
+    font-size: 4.5em;
+    position: relative;
+    top: 41%;
+    width: 100%;
+    color: white;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+}
+
+
 
 /*========================
         自适应
@@ -142,6 +203,12 @@ p.sub-footer-text a{
 @media (max-width: 800px) {
     .top-title {
         font-size: 50px;
+    }
+    .background_content h1{
+        font-size: 2.5em;
+    }
+    .text-content.img{
+        max-width:320px
     }
 
 
