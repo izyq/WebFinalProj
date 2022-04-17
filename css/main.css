@@ -199,6 +199,11 @@ p.desc-text{
 /*========================
         自适应
 =========================*/
+@media (max-width: 1350px) {
+    .top-title {
+        font-size: 60px;
+    }
+}
 
 @media (max-width: 800px) {
     .top-title {
@@ -210,10 +215,8 @@ p.desc-text{
     .text-content.img{
         max-width:320px
     }
-
-
-
 }
+
 @media (max-width: 450px) {
     .top-title {
         font-size: 37px;
