@@ -15,7 +15,6 @@ nav {
 }
 
 
-
 /*添加navbar文字动画*/
 .color_animation {
     text-decoration: initial;
@@ -88,27 +87,31 @@ body, html {
     text-align: center;
     background-position: center;
 }
+
 .follow_container {
     width: 100%;
     position: absolute;
     top: 35%;
     text-align: center;
 }
+
 /*引入字体文件*/
 @font-face {
     font-family: "HYShangWeiShouShuW";
     src: url("../font/HYShangWeiShouShuW.ttf");
 
 }
+
 /*设置h2样式*/
 h2 {
     margin: 0;
     padding: 0;
     letter-spacing: -5px;
-    white-space: nowrap;/*不自动换行*/
+    white-space: nowrap; /*不自动换行*/
 }
+
 /*设置顶部标题样式*/
-.top-title{
+.top-title {
     color: #f8ec80;
     font-family: 'HYShangWeiShouShuW';
     font-size: 100px;
@@ -124,16 +127,19 @@ footer.sub_footer {
     background-color: #ca211f;
     padding: 20px;
 }
+
 /*设置footer文字颜色*/
-p.sub-footer-text{
+p.sub-footer-text {
     color: #ffffff;
     margin: 0;
 }
+
 /*设置footer a标签颜色*/
-p.sub-footer-text a{
+p.sub-footer-text a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /*========================
         重要新闻
 =========================*/
@@ -154,18 +160,32 @@ p.sub-footer-text a{
     padding-bottom: 100px;
 }
 
-.text-content.img{
-    max-width:500px
+.text-content.img {
+    max-width: 500px
 }
 
-p.desc-text{
+p.desc-text {
     font-size: 20px;
     line-height: 35px;
     text-align: justify;
 }
 
+p.latest-text {
+    font-size: 8px;
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+}
+
+.latest_content {
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
 /*背景*/
-.bread.background_content{
+.bread.background_content {
     background: url('../images/banner.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
@@ -176,8 +196,8 @@ p.desc-text{
     position: relative;
     top: 0px;
     width: 100%;
-    height: 570px;
-    background-color: white;
+    height: 370px;
+    background-color: #fffae8;
     margin: 0 auto 0 auto;
     z-index: 98;
     text-align: center;
@@ -194,7 +214,19 @@ p.desc-text{
     display: inline-block;
 }
 
+.featured.background_content {
+    background: url('../images/banner2.JPG') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
+
+.carousel_bgm {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /*========================
         自适应
@@ -209,11 +241,13 @@ p.desc-text{
     .top-title {
         font-size: 50px;
     }
-    .background_content h1{
+
+    .background_content h1 {
         font-size: 2.5em;
     }
-    .text-content.img{
-        max-width:320px
+
+    .text-content.img {
+        max-width: 320px
     }
 }
 
